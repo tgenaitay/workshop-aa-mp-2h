@@ -1,0 +1,44 @@
+/* -------------------------------------
+ * Fonts
+ * ------------------------------------- */
+// Google fonts
+@import url("http://fonts.googleapis.com/css?family=Raleway:400,100,300,700,500");
+@font-face {
+    font-family: 'CircularStd-Black';
+    src: url('CircularStd-Black.eot');
+    src: url('CircularStd-Black.eot?#iefix') format('embedded-opentype'),
+        url('CircularStd-Black.woff') format('woff'),
+        url('CircularStd-Black.ttf') format('truetype'),
+        url('CircularStd-Black.svg#CircularStd-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+$my-font: "CircularStd-Black";
+$base-font: "Raleway", "Helvetica", "sans-serif";
+$header-font: $my-font, "Raleway", "Helvetica", "sans-serif";
+
+
+// Font-size and line-height
+$base-size: 16px;
+$base-height: 1.4;
+
+/* -------------------------------------
+ * Colors
+ * ------------------------------------- */
+// Scheme
+$brand-color: #D23333;
+$beige: #FCF5E8;
+
+$red: #EE5F5B;
+$blue: #469AE0;
+$yellow: #FDB631;
+$orange: #E67E22;
+$green: #32B796;
+
+// Gray scale
+$gray-darker:  lighten(#000, 13.5%); // #222
+$gray-dark:    lighten(#000, 20%);   // #333
+$gray:         lighten(#000, 33.5%); // #555
+$gray-light:   lighten(#000, 46.7%); // #777
+$gray-lighter: lighten(#000, 93.5%); // #eee
